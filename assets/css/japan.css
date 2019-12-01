@@ -1,0 +1,107 @@
+/* general style */
+
+body {
+  background-color: #F5F8FF;
+  margin: 0;
+  padding: 0;
+}
+
+a:visited {
+  color: #4B4B4B;
+  text-decoration: none;
+}
+
+a {
+  color: #4B4B4B;
+  text-decoration: none;
+}
+
+/* top navigation bar */
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+  height: 5%;
+  margin-bottom: 5%;
+}
+
+#logo {
+  color: #0F6CB1;
+  font-family: 'Ogg';
+  font-size: 30px;
+  margin-left: 3%;
+}
+
+#navigation {
+  color: #4B4B4B;
+  font-family: 'Neue Haas Unica W1G';
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 3%;
+}
+
+#home:hover, #about:hover, #journals:hover {
+  border-bottom: 2px solid #0F6CB1;
+}
+
+#home:hover, #about:hover, #journals:hover {
+  cursor: pointer;
+}
+
+#home, #about, #journals {
+  margin-left: 20px;
+}
+
+/* content */
+
+#japan {
+  writing-mode: vertical-rl;
+  color: #0F6CB1;
+  font-family: 'Ogg';
+  font-size: 36px;
+}
+
+#box {
+  background-color: #F5F8FF;
+  height: 140px;
+  width: 70px;
+  margin-left: 35%;
+}
+
+#vertical-line {
+  height: 120%;
+  width: 1px;
+  position: absolute;
+  background-color: #4B4B4B;
+  z-index: -1;
+  margin-left: 3.5%;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+}
+
+#text-and-line {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-right: 5%;
+  width: 100px;
+}
+
+/* images */
+
+#pictures {
+  width: 100%;
+  margin-right: 5%;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+}

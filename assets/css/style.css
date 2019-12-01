@@ -1,0 +1,213 @@
+/* top navigation bar */
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+  height: 5%;
+  margin-bottom: 5%;
+}
+
+#logo {
+  color: #0F6CB1;
+  font-family: 'Ogg';
+  font-size: 30px;
+  margin-left: 3%;
+}
+
+#navigation {
+  color: #4B4B4B;
+  font-family: 'Neue Haas Unica W1G';
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 3%;
+}
+
+#home:hover, #about:hover, #journals:hover {
+  border-bottom: 2px solid #0F6CB1;
+}
+
+#home:hover, #about:hover, #journals:hover {
+  cursor: pointer;
+}
+
+#home, #about, #journals {
+  margin-left: 20px;
+}
+
+body {
+  background-color: #F5F8FF;
+  margin: 0;
+  padding: 0;
+}
+
+/* first view of homepage */
+#first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8%;
+}
+
+#via {
+  color: #0F6CB1;
+  font-family: 'Ogg';
+  font-size: 7vw;
+  position: absolute;
+  z-index: 1;
+  max-width: 800%;
+  height: auto;
+  margin-left: -22%;
+  margin-top: -6%;
+}
+
+#tagline1 {
+  color: #4B4B4B;
+  font-family: 'Neue Haas Unica W1G';
+}
+
+#santorini {
+  max-width: 60%;
+  height: auto;
+}
+
+#sf {
+  max-width: 60%;
+  height: auto;
+}
+
+#montenegro {
+  max-width: 60%;
+  height: auto;
+}
+
+.carousel {
+  position: relative;
+  margin-bottom: 1%;
+  max-width: 60%;
+  height: auto;
+}
+
+/* second view of homepage */
+
+#second {
+  background-color: #EAEDF4;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-title {
+  color: #4B4B4B;
+  font-family: 'Neue Haas Unica W1G';
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#tagline2 {
+  color: #0F6CB1;
+  font-family: 'Ogg';
+  font-size: 2.5vw;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#horizontal-line {
+  background-color: #4B4B4B;
+  height: 1px;
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #4B4B4B;
+  font-family: 'Neue Haas Unica W1G';
+  font-size: 14px;
+  width: 50%;
+}
+
+/* third view of homepage */
+
+#third {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 1500px;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F8FF;
+  height: 100px;
+  width: 100%;
+}
+
+.date {
+  color: #4B4B4B;
+  font-family: 'Neue Haas Unica W1G';
+  font-size: 14px;
+}
+
+.place {
+  color: #0F6CB1;
+  font-family: 'Ogg';
+  font-size: 2.5vw;
+}
+
+#vertical-line {
+  height: 1500px;
+  width: 1px;
+  position: absolute;
+  background-color: #4B4B4B;
+  z-index: -1;
+}
+
+#left-image {
+  max-width: 40%;
+  height: auto;
+  position: absolute;
+  left: 0px;
+}
+
+#right-image {
+  max-width: 40%;
+  height: auto;
+  position: absolute;
+  right: 0px;
+}
+
+/* scroll feature */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* links */
+
+a:visited {
+  color: #4B4B4B;
+  text-decoration: none;
+}
+
+#navigation a {
+  color: #4B4B4B;
+  text-decoration: none;
+}
+
+.section a {
+  color: #0F6CB1;
+  text-decoration: none;
+}
