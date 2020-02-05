@@ -56,13 +56,13 @@ body {
 #via {
   color: #0F6CB1;
   font-family: 'Ogg';
-  font-size: 7vw;
+  font-size: 6vw;
   position: absolute;
   z-index: 1;
   max-width: 800%;
   height: auto;
-  margin-left: -22%;
-  margin-top: -6%;
+  margin-left: -17%;
+  margin-top: -5.5%;
 }
 
 #tagline1 {
